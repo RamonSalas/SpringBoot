@@ -31,3 +31,161 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Intellig ###
+# Cubre los IDE de JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm y Rider
+# Referencia: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Cosas específicas del usuario
+.idea/**/espacio de trabajo.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/diccionarios
+.idea/**/estante
+
+# AWS Específico del usuario
+.idea/**/aws.xml
+.idea
+# archivos generados
+.idea/**/contentModel.xml
+
+# Archivos sensibles o de alta rotación
+.idea/**/fuentes de datos/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+#Gradle
+.idea/**/gradle.xml
+.idea/**/bibliotecas
+
+# Gradle y Maven con importación automática
+# Cuando utilice Gradle o Maven con importación automática, debe excluir los archivos del módulo,
+# ya que se volverán a crear y pueden provocar abandono. Descomentar si se usa
+# importación automática.
+# .idea/artefactos
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/módulos
+# *.iml
+# *.ipr
+
+# Chacer
+cmake-build-*/
+
+# Complemento Mongo Explorer
+.idea/**/mongoSettings.xml
+
+# Formato de proyecto basado en archivos
+*.iws
+
+#IntelliJ
+afuera/
+
+# complemento mpeltonen/sbt-idea
+.idea_modules/
+
+# Complemento JIRA
+complemento-ide-atlassian.xml
+
+# Complemento de Clojure cursiva
+.idea/replstate.xml
+
+# Complemento SonarLint
+.idea/sonarlint/
+
+# Complemento Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+propiedades.de.tela
+
+# Cliente de descanso basado en editor
+.idea/httpSolicitudes
+
+# Archivo de caché serializado de Android Studio 3.1+
+.idea/caches/build_file_checksums.ser
+
+### Parche Intellij ###
+# Motivo del comentario: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# módulos.xml
+# .idea/misc.xml
+# *.ipr
+
+# Complemento Sonarlint
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea/**/sonarlint/
+
+# Complemento SonarQube
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
+
+# Complemento de navegador de rebajas
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# Error de creación de archivos de caché
+# Consulte https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
+
+# Complemento CodeStream
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+# Kit de herramientas de Azure para el complemento IntelliJ
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
+
+###Java###
+# Archivo de clase compilado
+*.clase
+
+# Archivo de registro
+*.registro
+
+# Archivos BlueJ
+*.ctxt
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp/
+
+# Archivos de paquete #
+*.frasco
+*.guerra
+*.nar
+*.oreja
+*.cremallera
+*.tar.gz
+*.rar
+
+# registros de fallos de la máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+repetición_pid*
+
+### Experto ###
+objetivo/
+pom.xml.etiqueta
+pom.xml.releaseCopia de seguridad
+pom.xml.versionsCopia de seguridad
+pom.xml.siguiente
+lanzamiento.properties
+dependencia-reducida-pom.xml
+número de compilación.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage- without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Archivos generados por Eclipse m2e
+# Núcleo de eclipse
+.proyecto
+# Específico de JDT (herramientas de desarrollo Java de Eclipse)
+.ruta de clase
